@@ -1,0 +1,48 @@
+ html {box-sizing: border-box;}
+
+.center-text {text-align: center}
+
+.text-lg {font-size: 40px}
+
+.list-inside li {
+  list-style-position: inside;
+}
+
+header {background-color:#9999A1;
+  font-family: Garamond, Serif;
+  color:#2F2F2F;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;}
+
+section {background-color:#9999A1;
+  font-family: Garamond, Serif;
+  color:#2F2F2F;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;}
+
+body {
+  font-family: Garamond, Serif;
+  background-color: #2F2F2F;
+  font-size: 25px;
+  padding: 20px;
+  margin: 20px;
+}
+
+hr {height: 1px;
+    background-color: gold;}
+
+a {
+  font-family: Garamond, Serif;
+  font-size: 25px;
+}
+
+a:link    { color: gold;  }
+a:visited { color: purple;   }
+a:hover   { color: maroon; }
+a:active  { color: yellow;  }
