@@ -43,6 +43,6 @@ a {
 }
 
 a:link    { color: gold;  }
-a:visited { color: purple;   }
-a:hover   { color: maroon; }
+a:visited { color: green;   }
+a:hover   { color: red; }
 a:active  { color: yellow;  }
