@@ -7,6 +7,10 @@
 .list-inside li {
   list-style-position: inside;
 }
+
+.list-align {
+  text-align: left
+} /* REVISION: added class to allow bullet points in lists to align vertically */
 /* the 3 classes above allow me to add styling to specific aspects of my HTML within containers that may not want to be styled as such. These were mainly for my subtitles and lists. */
 header {background-color:#9999A1;
   font-family: Garamond, Serif;
