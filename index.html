@@ -1,22 +1,18 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang = "en"> <!-- doctype HTML indicates this is an HTML Page, I set the language to english for accessibility -->
 
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-  <!-- <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=yes">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="HandheldFriendly" content="true"> -->
-
 	<title> Faisal Khalil Barakat </title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
-	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link href="style.css" rel="stylesheet" type="text/css" /> <!-- REVISION: I overhauled the Head to minimize HTML errors, the site runs smoothly still and now has no HTML errors -->
 </head>
   
-
+<!-- REVISION: removed hr here that was causing HTML errors due to code between head and body. I learned to never put anything between head and body so I don't kill the page :) -->
   
 <body class = center-text>
-  <header id = "intro">
+  <header id = "intro"> <!--Header container includes my h1 website name and my h2 title. Header id tag allows me link to this section within the site, useful for navigating back to the top once you reach the end. -->
     <div>
     <h1> 
         Faisal Khalil Barakat
@@ -26,27 +22,27 @@
       </h2>
     </div>
 </header>
-<hr>
-<main>
+<hr> <!-- HR add lines to break apart content and make site easier to read and view -->
+<main> <!-- main container to hold my website's body -->
   <div>
 
-<img src = "images/faisal.jpg" width = 500 alt = "It's Me!">
+<img src = "images/faisal.jpg" width = 500 alt = "It's Me!"> <!-- REVISION: fixed width value to prevent HTML errors -->
 <hr>
-<section>
+<section> <!-- Sections break apart my webpage in easy-to-read segments, and allows me to style them similarly while also maintaning body style and formatting -->
 <h3 class = "text-lg"> Hello, I'm Faisal!</h3>
 <p> I'm a software Developer living in Dallas, TX. Breaking into the tech industry, I bring along a repertoire of talent, including:</p>
 <ul class = "list-inside list-align">
   <li>Problem solving in the form of critical thinking and innovative implementation.</li>
   <li>Teamwork in the form of peer collaboration and consistency calibration. </li>
   <li>Complex task management in the form of multitasking, delegation and practical goal assessment.</li>
-</ul>
+</ul> <!-- REVISION: Fixed list alignment to better align bullet points, makes website much more accessible and readable -->
 
 
 <p>Take a look over my portfolio and please feel free to <a href = #contact> contact me! </a></p>
 </section>
 <hr>
 <section>
-<h3 class = "text-lg">Who is Faisal?</h3>
+<h3 class = "text-lg">Who is Faisal?</h3> <!-- class added to my h3 titles to allow them to be styled slightly differently from the rest of the section -->
 <p>Graduating from Richland College, I found myself a blank canvas out there, waiting to be explored. Coming from a diverse background of varying industries, I always return to the path of my passions. With a craving for solving problems and an affinity for computer skills, I found the next step for my career could only be a software developer. </p>
 
 <p> Joining Thinkful as a student, I aim to develop my portfolio, my talent profile and my skills, to bring innovation and passion to the world of coding and software engineering!</p>
@@ -56,22 +52,22 @@
     
 <hr>
     
-<article>
+<article> <!-- REVISION: changed contact section to an article to demonstrate use of article container, and since contact information is stand-alone -->
 <h3 id = "contact" class = "text-lg"> Reaching out</h3>
 <p> Thank you for taking the time to learn about myself, my goals and my passions. I would love to hear from you! Please reach out to me using any of the following:</p>
   <ol class = "list-inside list-align">
 <li><a href = "https://github.com/FaisalKB"> GitHub </a></li>
-<li><a href = "https://www.linkedin.com/in/faisalkb96/"> LinkedIn </a></li>
+<li><a href = "https://www.linkedin.com/in/faisalkb96/"> LinkedIn </a></li> <!-- REVISION: I was able to fix and implement the correct linkedin link. Should work just fine now -->
 <li><a href = "mailto:faisalkbarakat1@gmail.com"> Email </a></li>
-</ol>
+</ol> <!-- REVISION: Added same classes and styling to this list as my previous list so that the list items are more evenly aligned -->
 </article>
  </div> 
 </main>
 <hr>
 
-<footer>
+<footer> <!-- footer includes my name and a link to navigate to the top of the screen. This gives my page a nice polish while also making navigation and accessibility easier. -->
   <div>
-    <h4> Faisal Barakat | <a href = #intro> Back to Top </a> </h4>
+    <h4> © Faisal Barakat | <a href = #intro> Back to Top </a> </h4>
   </div>
 </footer>
 
