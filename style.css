@@ -1,4 +1,4 @@
- html {box-sizing: border-box;} /* one of the lessons stated this was the best thing to put at the top of your CSS to help with box and container sizing */
+ html {box-sizing: border-box;}
 
 .center-text {text-align: center}
 
@@ -7,11 +7,14 @@
 .list-inside li {
   list-style-position: inside;
 }
-
 .list-align {
   text-align: left
-} /* REVISION: added class to allow bullet points in lists to align vertically */
-/* the 3 classes above allow me to add styling to specific aspects of my HTML within containers that may not want to be styled as such. These were mainly for my subtitles and lists. */
+}
+
+.list-margin {
+  margin: 200px
+}
+
 header {background-color:#9999A1;
   font-family: Garamond, Serif;
   color:#2F2F2F;
@@ -46,12 +49,12 @@ body {
   padding: 20px;
   margin: 20px;
 }
-/* the above styling is for the main content of my webpage, this added sizing, color, font, and margins to my primary containers */
-h4 {color: #9999A1} /* this is simply for the footer title, I wanted there to be less contrast so adding this color helps for better visibility */
+
+h4 {color: #9999A1}
 
 hr {height: 1px;
     background-color: gold;}
-/* this horizontal rule styling just gives the bar a nice gold color for pizazz and flair */
+
 a {
   font-family: Garamond, Serif;
   font-size: 25px;
@@ -61,4 +64,3 @@ a:link    { color: red;  }
 a:visited { color: blue;   }
 a:hover   { color: green; }
 a:active  { color: yellow;  }
-/* the "a" styles above are strictly for my links. The first one sets size and font, while the remaining 4 affect the color of the link depending on if it's active, clicked, or hovered over */
