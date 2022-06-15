@@ -1,4 +1,4 @@
- html {box-sizing: border-box;}
+ html {box-sizing: border-box;} /* A Thinkful lesson stated adding this to the top of your CSS will allow for better optimization of view and width */
 
 .center-text {text-align: center}
 
@@ -9,11 +9,9 @@
 }
 .list-align {
   text-align: left
-}
+} /* REVISION: this class allows me to better align bullet points and list items within my lists. */
 
-.list-margin {
-  margin: 200px
-}
+/* The classes above allow me to style certain HTML elements within my containers differently from the rest of the container styling */
 
 header {background-color:#9999A1;
   font-family: Garamond, Serif;
@@ -33,7 +31,7 @@ section {background-color:#9999A1;
   margin: 20px;
   border-radius: 10px;}
 
-article {background-color:#9999A1;
+article {background-color:#9999A1; /* REVISION: added styling to my article container */
   font-family: Garamond, Serif;
   color:#2F2F2F;
   text-align: center;
@@ -41,7 +39,7 @@ article {background-color:#9999A1;
   padding: 20px;
   margin: 20px;
   border-radius: 10px;}
-
+/*  the above styling applies to all of my website's sections, this is what allows my sections to look stylish and appear to hover over the background */
 body {
   font-family: Garamond, Serif;
   background-color: #2F2F2F;
@@ -50,11 +48,14 @@ body {
   margin: 20px;
 }
 
+/* the above style applies to my website's body */
+
+
 h4 {color: #9999A1}
 
 hr {height: 1px;
     background-color: gold;}
-
+/* the above stylings add flair and pizazz to certain elements, such as my hr breaks and my footer title */
 a {
   font-family: Garamond, Serif;
   font-size: 25px;
@@ -64,3 +65,4 @@ a:link    { color: red;  }
 a:visited { color: blue;   }
 a:hover   { color: green; }
 a:active  { color: yellow;  }
+/*the above stylings appply to my links; first one changes size and font, the remaining four alter the link's colors */
