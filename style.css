@@ -30,6 +30,15 @@ section {background-color:#9999A1;
   margin: 20px;
   border-radius: 10px;}
 
+article {background-color:#9999A1;
+  font-family: Garamond, Serif;
+  color:#2F2F2F;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;}
+
 body {
   font-family: Garamond, Serif;
   background-color: #2F2F2F;
